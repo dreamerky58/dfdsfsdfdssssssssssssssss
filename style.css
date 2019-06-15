@@ -1,0 +1,109 @@
+/* 
+Design by Saliven! 
+SPIGOT - https://www.spigotmc.org/members/p3x.519408/ 
+WEBSITE - http://saliven.eu 
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 30px 50px 0px rgba(56,56,56,1);
+    -moz-box-shadow: 0px 3px 50px 0px rgb(56, 56, 56);
+    box-shadow: 0px 30px 500px 0px rgba(56,56,56,1);
+}
+
+.box h1 {
+    color: #191919;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.box input[type = "text"],.box input[type = "password"] {
+    color: white;
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    transition: 0.55s;
+    background-size: 200% auto;
+    background-image: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, rgb(192, 39, 212) 100%)
+}
+
+.box input[type = "text"]:focus,.box input[type = "password"]:focus {
+    color:white;
+    outline:0;
+    box-shadow:none,none;
+    background-position: right center;
+
+}
+
+.box input[type = "text"]::placeholder, .box input[type = "password"]::placeholder {
+    color: white;
+    opacity: 0.3;
+}
+
+.box input[type = "submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    transition: 0.65s;
+    cursor: pointer;
+    background-size: 200% auto;
+    background-image: linear-gradient(100deg, #DA22FF 0%, #9733EE 51%, rgb(122, 0, 146) 100%);
+}
+
+.box input[type = "submit"]:hover {
+    background-position: right center; 
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+a:hover {
+    color: rgb(122, 0, 146);
+}
+
+.made-with-love{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    bottom: 10px;
+    text-align: center;
+    z-index: 9999;
+    font-family: arial;
+    color: #fff;
+}
+
+.made-with-love i {
+    color: red;
+}
